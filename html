@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazônia Viva | Conscientização e Preservação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <nav aria-label="Navegação Principal">
+            <div class="logo">Amazônia<span>Viva</span></div>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize('increase')" aria-label="Aumentar fonte">A+</button>
+                <button onclick="changeFontSize('decrease')" aria-label="Diminuir fonte">A-</button>
+                <button onclick="toggleContrast()" aria-label="Alternar Alto Contraste">◐</button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title">O Pulmão do Mundo pede socorro.</h1>
+                <p>Entenda o impacto do desmatamento e como podemos reverter esse cenário.</p>
+                <a href="#impactos" class="btn-primary">Saiba Mais</a>
+            </div>
+        </section>
+
+        <section id="dados" class="container reveal" aria-labelledby="dados-title">
+            <h2 id="dados-title">Estatísticas Atuais</h2>
+            <div id="grid-dados" class="grid-container">
+                </div>
+        </section>
+
+        <section id="causas" class="carousel-section reveal" aria-labelledby="causas-title">
+            <h2 id="causas-title">Principais Causas</h2>
+            <div class="carousel-container" role="region" aria-roledescription="carousel">
+                <div id="carousel-track" class="carousel-track">
+                    </div>
+                <div class="carousel-nav">
+                    <button class="prev" aria-label="Slide anterior">❮</button>
+                    <button class="next" aria-label="Próximo slide">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="solucoes" class="container reveal" aria-labelledby="solucoes-title">
+            <h2 id="solucoes-title">Como Ajudar</h2>
+            <div id="accordion-group" class="accordion">
+                </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2026 Amazônia Viva - Projeto Educativo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
