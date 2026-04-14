@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educação do Futuro | Inovação nas Escolas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+    <header>
+        <nav aria-label="Menu Principal">
+            <div class="logo">Educação+</div>
+            <div class="accessibility-controls">
+                <button onclick="changeFontSize('increase')" aria-label="Aumentar fonte">A+</button>
+                <button onclick="changeFontSize('decrease')" aria-label="Diminuir fonte">A-</button>
+                <button onclick="toggleContrast()" aria-label="Alternar Alto Contraste">
+                    <span class="icon">◐</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero scroll-reveal">
+            <h1>Transformando o futuro através do conhecimento</h1>
+            <p>Uma abordagem pedagógica moderna focada no desenvolvimento integral do aluno.</p>
+        </section>
+
+        <section class="features" id="features-container" aria-labelledby="features-title">
+            <h2 id="features-title" class="scroll-reveal">Nossos Pilares</h2>
+            <div class="grid-container" id="cards-wrapper">
+                </div>
+        </section>
+
+        <section class="carousel-section scroll-reveal" aria-label="Depoimentos">
+            <div class="carousel">
+                <div class="carousel-track" id="carousel-track">
+                    </div>
+                <div class="carousel-nav">
+                    <button id="prev-btn" aria-label="Slide Anterior">❮</button>
+                    <button id="next-btn" aria-label="Próximo Slide">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq scroll-reveal" id="faq-section">
+            <h2>Perguntas Frequentes</h2>
+            <div id="accordion-group">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Educação+ - Acessibilidade para todos.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
